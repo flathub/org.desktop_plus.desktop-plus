@@ -72,7 +72,7 @@ modules:
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - node ./vendor/yarn-1.21.1.js --offline
       # Run electron-builder, passing the architecture arguments to it.
-      - . ./credentials.sh && . flatpak-node/electron-builder-arch-args.sh && node ./vendor/yarn-1.21.1.js
+      - . ./obfuscated-creds.sh && . flatpak-node/electron-builder-arch-args.sh && node ./vendor/yarn-1.21.1.js
         run --offline build:prod $ELECTRON_BUILDER_ARCH_ARGS
       # Copy the resulting, unpacked directory to /app.
       # (A glob is used because the directory name may contain the current arch.)
@@ -97,7 +97,7 @@ modules:
       - type: patch
         path: node_options.patch
       - type: file
-        path: credentials.sh
+        path: obfuscated-creds.sh
       - generated-sources.json
       - type: script
         dest-filename: start-desktop-plus.sh
