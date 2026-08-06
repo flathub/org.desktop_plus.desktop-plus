@@ -1299,9 +1299,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.178.tgz#341f6d2247db528d4a13ddbb374bcdc80406f4f8",
-        "sha512": "d1de56774f48b50587d6a15b13243ba13437199acc7ed8792646cddc4bd328b5dc1cb44349778b9e5be53a7d30bf1548c0ae68d8cf09ccffce5b3ed3dcd46c6f",
-        "dest-filename": "@types-lodash-4.14.178.tgz",
+        "url": "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.25.tgz#69765ac7bcddb0eb072961cf292524a8f5b3c2c0",
+        "sha512": "f8ad4d20ef08f85f7fc0dba57d5beedb74187743def7f382a91ae29b83686087f55681032fdd157b80a5ce9caa04b73b369186591bd8342299d4113f2697fc75",
+        "dest-filename": "@types-lodash-4.17.25.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
