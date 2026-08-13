@@ -58,15 +58,6 @@ modules:
         XDG_CACHE_HOME: /run/build/desktop-plus/flatpak-node/cache
         APP_VERSION: 3.6.4.3
     build-commands:
-      # Symlink libcurl-gnutls
-      - mkdir -p /app/lib
-      - |
-        if [ "$FLATPAK_ARCH" = "aarch64" ]; then
-          ln -s /usr/lib/aarch64-linux-gnu/libcurl.so.4 /app/lib/libcurl-gnutls.so.4
-        else
-          ln -s /usr/lib/x86_64-linux-gnu/libcurl.so.4 /app/lib/libcurl-gnutls.so.4
-        fi
-
       - HOME=$PWD node ./vendor/yarn-1.21.1.js config --offline set yarn-offline-mirror
         $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
