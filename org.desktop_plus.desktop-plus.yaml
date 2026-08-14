@@ -56,17 +56,8 @@ modules:
         # Use predownloaded dugite-native
         TMPDIR: /run/build/desktop-plus/flatpak-node/tmp
         XDG_CACHE_HOME: /run/build/desktop-plus/flatpak-node/cache
-        APP_VERSION: 3.6.4.3
+        APP_VERSION: 3.6.4.4
     build-commands:
-      # Symlink libcurl-gnutls
-      - mkdir -p /app/lib
-      - |
-        if [ "$FLATPAK_ARCH" = "aarch64" ]; then
-          ln -s /usr/lib/aarch64-linux-gnu/libcurl.so.4 /app/lib/libcurl-gnutls.so.4
-        else
-          ln -s /usr/lib/x86_64-linux-gnu/libcurl.so.4 /app/lib/libcurl-gnutls.so.4
-        fi
-
       - HOME=$PWD node ./vendor/yarn-1.21.1.js config --offline set yarn-offline-mirror
         $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
@@ -92,8 +83,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-plus/desktop-plus.git
-        tag: v3.6.4.3
-        commit: c0c8c38dd770f3c8355481abdb887abbb8024a96
+        tag: v3.6.4.5
+        commit: fc0688bacebb6b8e0cbb1773047a45899e6de63f
       - type: patch
         path: node_options.patch
       - type: file
