@@ -83,8 +83,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-plus/desktop-plus.git
-        tag: v3.6.4.4
-        commit: 9347a413745f26cf0b2caf33a1e4d59547b1a07a
+        tag: v3.6.4.5
+        commit: fc0688bacebb6b8e0cbb1773047a45899e6de63f
       - type: patch
         path: node_options.patch
       - type: file
