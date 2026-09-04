@@ -56,7 +56,7 @@ modules:
         # Use predownloaded dugite-native
         TMPDIR: /run/build/desktop-plus/flatpak-node/tmp
         XDG_CACHE_HOME: /run/build/desktop-plus/flatpak-node/cache
-        APP_VERSION: 3.6.4.4
+        APP_VERSION: 3.6.5.1
     build-commands:
       - HOME=$PWD node ./vendor/yarn-1.21.1.js config --offline set yarn-offline-mirror
         $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
@@ -83,8 +83,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-plus/desktop-plus.git
-        tag: v3.6.4.5
-        commit: fc0688bacebb6b8e0cbb1773047a45899e6de63f
+        tag: v3.6.5.1
+        commit: af5a3e90bb03012b0f54d240cff0c15b2c2b15ac
       - type: patch
         path: node_options.patch
       - type: file
