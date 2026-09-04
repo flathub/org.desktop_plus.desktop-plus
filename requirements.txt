@@ -4,7 +4,7 @@ aiosignal==1.4.0
 attrs==25.3.0
 certifi==2025.8.3
 charset-normalizer==3.4.3
-flatpak_node_generator @ git+https://github.com/flatpak/flatpak-builder-tools.git@caca92bc6898ea40d6521b581fef2402ba3b3aae#subdirectory=node
+flatpak_node_generator @ git+https://github.com/flatpak/flatpak-builder-tools.git@1fc32195e3e60fe5c97f0af646dec7a99df5962b#subdirectory=node
 frozenlist==1.7.0
 idna==3.10
 multidict==6.6.4
