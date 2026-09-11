@@ -127,6 +127,202 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-darwin-arm64/-/copilot-sdk-darwin-arm64-1.0.13.tgz#1350bb3ad57bf1489ff5a709b6489531870ec27a",
+        "sha512": "02f055e5dce3356a46c20a029edb6b1139edeeb2c8e294c542c45233b194e532be62a4a16ae7df74c534e819ff77e2035f67e3d59e13847ef297f807083be835",
+        "dest-filename": "@github-copilot-sdk-darwin-arm64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-darwin-x64/-/copilot-sdk-darwin-x64-1.0.13.tgz#f0994180f1a687f986e8db6dd6e2a0628fbfe07e",
+        "sha512": "64d4264e71f093c6cefc4e75e24d2c141b2e095369163f23307e2378b9dc01240ce1145d3aa6215e560b5bb1ffb6cec036375f3098c9636f4d52acc459a00338",
+        "dest-filename": "@github-copilot-sdk-darwin-x64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-linux-arm64/-/copilot-sdk-linux-arm64-1.0.13.tgz#8fc110b0ad226be3593324f4bd63b87bbdf338a5",
+        "sha512": "926d63bef783c2525b86df25b85c81babcf4c14c4f1d2cdd91944c24426054761f327d37822d2076767a7c2e895a09227df359a6e912c513c998f7d1a1bc3a03",
+        "dest-filename": "@github-copilot-sdk-linux-arm64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-linux-x64/-/copilot-sdk-linux-x64-1.0.13.tgz#2c000c8774d8e302c07a62cd79ce5325ee71b444",
+        "sha512": "e006f30bc35bd5d598435bb16c7180874640a0e25e2f732cd687b76f264b9fc10d3f53dfa320fc0c96544acc971981f12fba0b27252a777c32b75f227c883c8b",
+        "dest-filename": "@github-copilot-sdk-linux-x64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-linuxmusl-arm64/-/copilot-sdk-linuxmusl-arm64-1.0.13.tgz#386a5a1e4ea80c171abcfb87d33d4ab3c94cba38",
+        "sha512": "a42523972d675dc36960364d9caae09452057a36dbf900e49688a595dbbed2d4db4b36fc804995b1b1b0a5fc326577cd41fe497b91458ec39f411f4f5c7d4d0d",
+        "dest-filename": "@github-copilot-sdk-linuxmusl-arm64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-linuxmusl-x64/-/copilot-sdk-linuxmusl-x64-1.0.13.tgz#5a1d93f7eac4c7200e8c8b99e7df22243dfc1a1b",
+        "sha512": "cb9466a806ca4981edf8ec107482c88a231289b5dd77bff490eee41684d908dda09f6786440f3025b5e57fa29987ec988164891942fcebbecb0c97775a72076c",
+        "dest-filename": "@github-copilot-sdk-linuxmusl-x64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-win32-arm64/-/copilot-sdk-win32-arm64-1.0.13.tgz#b32883887601b67c4fe4b6cfdda093dc065c29e8",
+        "sha512": "6b32125e1e291157d7d213f3bb9f30653620ded7561b82f59cda6245aff0741c61728bdbc70f9e655908e02e8564cc74b62358164a96cd54d5ee82ac90dc9b73",
+        "dest-filename": "@github-copilot-sdk-win32-arm64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk-win32-x64/-/copilot-sdk-win32-x64-1.0.13.tgz#ae024b7030603cb5d8e7cfd849270861a3b5d60f",
+        "sha512": "96f4bb90c6eebb1c9d050c4f0c70a4b94c1b0bce7c46f733dd0defbf49b19cb2ae589ef994072a11179fa80da9e1b79a3dd7b3fa27d9380e617944f4af1dc69c",
+        "dest-filename": "@github-copilot-sdk-win32-x64-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@github/copilot-sdk/-/copilot-sdk-1.0.13.tgz#479b93129d918e73867af2939cb113868a5cc15a",
+        "sha512": "fe3ebfb4673d1ceb5cba9b98165a0e2a4d1fa5271da72eb91151752ca8366765503a88c218f8011a48605465436aa5bb501e93576a9b4196bdaca262989d3059",
+        "dest-filename": "@github-copilot-sdk-1.0.13.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-android-arm64/-/koffi-android-arm64-3.2.1.tgz#2dce798d3669d2b7b56e9c02a8a6a274abd6c7c6",
+        "sha512": "d69250e239d995425db8af6ef430b9086cb768e80350fbc85e935beacc95dfe0e1e50fee81ecc02060aabd8fb0fb59a05ecbded29774355bc946375934743a30",
+        "dest-filename": "@koromix-koffi-android-arm64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-android-x64/-/koffi-android-x64-3.2.1.tgz#4d0afcbaf66042310ac1b3acf2c58c6ffe973743",
+        "sha512": "1c7e34c468778154227e33819e1c13dad1020b494bd6561efa7c47bd6352cf10c8c9035c54f5e0dfcb5aeefb8e3511690feb88af0edfa8660bcdb6486a091572",
+        "dest-filename": "@koromix-koffi-android-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-darwin-arm64/-/koffi-darwin-arm64-3.2.1.tgz#20fd5166f0466eb9f59699506cb78af1c5207d09",
+        "sha512": "563e21fb1723739f829f40e13c78e0457e2898a02ff7a29e86d71dfb562062e6365bb16f427f6f4bedd29b3570842e509a0f5b23051939b610f13ff8841a90a8",
+        "dest-filename": "@koromix-koffi-darwin-arm64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-darwin-x64/-/koffi-darwin-x64-3.2.1.tgz#03e4ccb41a05579f1a29c281e4826213317cf6ca",
+        "sha512": "805096c4d053648bf1a35a7e3d44567eccb60ad8f91469d556cd5fd379532e106f9b112da3bd29748885ced7452c3164009d699ad426aee44a6a978af84f183c",
+        "dest-filename": "@koromix-koffi-darwin-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-freebsd-arm64/-/koffi-freebsd-arm64-3.2.1.tgz#d3e4e9f2219329c86f37bc285685eb895a5281bd",
+        "sha512": "aa3f9fd6cd9eeaf50b6941b571d9537025e6ba70aadadfab8f192ed7e7ac68c22a5671e93b08f44333ee2271b40057578f004d421c9547f1e90e3f1d684c30b1",
+        "dest-filename": "@koromix-koffi-freebsd-arm64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-freebsd-ia32/-/koffi-freebsd-ia32-3.2.1.tgz#8698603b8fd027c1ecf6dc3aad7df4dc16efdfdf",
+        "sha512": "ea89476f541f81a8b48e3b3a75d9430c3d197ec0b1cbb48f8bcacc469b984161f4aa182dc90bbcda1c396f5a7bcfe4c9d3364fdd979043a97e53f3253352021d",
+        "dest-filename": "@koromix-koffi-freebsd-ia32-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-freebsd-x64/-/koffi-freebsd-x64-3.2.1.tgz#8513b2af457e26d97e80d34f63cbf00638730586",
+        "sha512": "0e2921c35c9260d54c926785bc55639d4e56764ea67df3683a32719bd6d31bdeaf83b3a57a6ca5c6a744bde9f8ed1d58277cb3355267fcc950db4ece4567e2db",
+        "dest-filename": "@koromix-koffi-freebsd-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-arm/-/koffi-linux-arm-3.2.1.tgz#53c90d9d5f9a893941f3ad828af487b3795e8ee1",
+        "sha512": "39fc14c19ca589dabde7040aa7a0a522750badf076822bbb76a33a4617b4cc07ba9444b9236497370d794fdf869d11e4dfff61293d97677ece64b68a4b258d2c",
+        "dest-filename": "@koromix-koffi-linux-arm-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-arm64/-/koffi-linux-arm64-3.2.1.tgz#75d4a53ee0d061fa159cc1be7ae80b04d100920f",
+        "sha512": "2be70650be6205c0eac66b2872b8e69404aa0dfdb881cedaaed6d55b73dec06d9cf40ab00bade57b3830bc1f39371e2564042307acc814787d03bb75c866f087",
+        "dest-filename": "@koromix-koffi-linux-arm64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-ia32/-/koffi-linux-ia32-3.2.1.tgz#4efba1b898e73b618d22a9e0c9f3e9d11d7ddab4",
+        "sha512": "af18fa5188d4d6a77df20c4d40e48274ba5ce5c3d18b91a2abdacd7778e71ae48d232324c1ae83c70e1c5239a1201098112309b6636de4d5a7269e6ef704df61",
+        "dest-filename": "@koromix-koffi-linux-ia32-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-loong64/-/koffi-linux-loong64-3.2.1.tgz#2a0d8d0af7f66e95e257111e5f54ec2108d8b3b8",
+        "sha512": "6878671f390f4664ff2070e51af11227f06cdf69bc37a504e806fa90c789ce093be0837c69fda6ffcd7fc1926dc9b475336531095e0d9a554d518410bd200edd",
+        "dest-filename": "@koromix-koffi-linux-loong64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-riscv64/-/koffi-linux-riscv64-3.2.1.tgz#d555a20ec36f7c190cf16fef1055a42ad9183d4d",
+        "sha512": "aad401b236e6dcb8a2acb26f6a35a62a435bec0464edfbc955775fb49ecdb409c5dd7c3c11b0efaedbe6bed348d722cf9587019a5cc2083ef5870856624d1220",
+        "dest-filename": "@koromix-koffi-linux-riscv64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-linux-x64/-/koffi-linux-x64-3.2.1.tgz#237b4640d73803eb67cbba437b512ed87933803d",
+        "sha512": "73b870ed0b3faf98271514d02dc6e27c1c1153bc22a1c8feda956e0d0e4085bdebdfa4999aea668186d359c2ef4d6fa1ba5d6377b48a455d1dd78649abfb6f4b",
+        "dest-filename": "@koromix-koffi-linux-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-openbsd-ia32/-/koffi-openbsd-ia32-3.2.1.tgz#4337a63b288effd1eac1d3876d794ae2b7ee3d18",
+        "sha512": "9a663c7d8f0b43f081e76fa1df2acc626572a31cd6df1d3c4b4c88e9535f1d675f53ac89b5990a09b86399009832b59b60a0b880cbf06700b2c0818f0242f278",
+        "dest-filename": "@koromix-koffi-openbsd-ia32-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-openbsd-x64/-/koffi-openbsd-x64-3.2.1.tgz#c59c9c7e40953ffb7e32f8d8fbcb19ff38a8ef03",
+        "sha512": "9388a0e9a00f6c549101338820e7dd7ff2ad94e187e12565b3a2fd7f2d109d3c51258bd8da84a5b53b10b410c036011095d96af0a9795a7a516b555289b3f82f",
+        "dest-filename": "@koromix-koffi-openbsd-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-win32-arm64/-/koffi-win32-arm64-3.2.1.tgz#915a18cf57472b5e9c6d716813bc399837a4514e",
+        "sha512": "7135812462bffe90cc78a40913fefd02af4c88e005e07f10c8b647490f485a6f1ccce7f08c6e09d4086c43d0e323d2853b2907efb8619e99904c654c22e6c68a",
+        "dest-filename": "@koromix-koffi-win32-arm64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-win32-ia32/-/koffi-win32-ia32-3.2.1.tgz#9fad23a3132a940726fff308e5b2975517a9a32b",
+        "sha512": "679d0433a4c067b085c8c9b25fab61bfc78da49721a9ef5e7a78626d2232d84abf150605efa814d952bf2c4a1a178e8bf217c2ed3a53a7d6f5d0cbd178713214",
+        "dest-filename": "@koromix-koffi-win32-ia32-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@koromix/koffi-win32-x64/-/koffi-win32-x64-3.2.1.tgz#9d380ab0ea8bcfba16f4feda2c9ea3630ff5620f",
+        "sha512": "66664d8813ba6e439287740dce07ef6f570c634c8ca1b9fa650ad232a6c071edb5ab260bf278886f28a9cfd37f3c84437221a1b15d305319d9b3120efb25ac1d",
+        "dest-filename": "@koromix-koffi-win32-x64-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/koffi/-/koffi-3.2.1.tgz#94f9a111db2c513cdd721b1c5d8c24d838c2ce25",
+        "sha512": "d2a137959f2396546a3cde0e6fa02397b7366c94890e1416b8a2c63f98481291cb965256bf5c9d1c53211e61dce69fd6f46b6270a5436d8cd977b4c1a10e0266",
+        "dest-filename": "koffi-3.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/7zip-bin/-/7zip-bin-5.2.0.tgz#7a03314684dd6572b7dfa89e68ce31d60286854d",
         "sha512": "ba44cf561a86e2337332ba36a80f4748249254937768deed95bfa17ea602b77111d325aba1e036551dfc30dace1cb43f7158fe0da20c69dd24142b565a8c21fc",
         "dest-filename": "7zip-bin-5.2.0.tgz",
@@ -690,76 +886,6 @@
         "url": "https://registry.yarnpkg.com/@github/browserslist-config/-/browserslist-config-1.0.0.tgz#952fe6da3e6b8ed6a368f3a1a08a9d2ef84e8d04",
         "sha512": "808863749a7f7366de688596225b1776a5d5454cf7af6071042a5fcff1772571ef480435a5a3188cb1fe99a1004ed10d83e93978b57b800fbdc8fa7beb689ebb",
         "dest-filename": "@github-browserslist-config-1.0.0.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-darwin-arm64/-/copilot-darwin-arm64-1.0.69.tgz#90d227ecaf1087f2de04b5961a5a0f0ccb19a9cf",
-        "sha512": "2e96954b6a36d416d84c552592a7705095ea1349752e9e7409bfc41ebbb7cfee67e71ef33545392253f174c839807315c3bf1c967327db34896dee61605c830d",
-        "dest-filename": "@github-copilot-darwin-arm64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-darwin-x64/-/copilot-darwin-x64-1.0.69.tgz#d9826f079ffb8a65badb5ca0723bb71b56ecb838",
-        "sha512": "40be5bb269d8aa5881548104f1163dd5eeb202bdfd7364cdbc973fe48ce868a32543d302ac3f716a4049c1decb392d1288ec111387ea9fca540382f5f945397e",
-        "dest-filename": "@github-copilot-darwin-x64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-linux-arm64/-/copilot-linux-arm64-1.0.69.tgz#6692de62359b619ad68da6f1535641d580166447",
-        "sha512": "48e89ba7423a00f2e86362a471c6cd3884a96e1137969e35b3d7ccdde00da9f7681d02ec801a297e4e2bb813fc93f0f38d003ab7832b6d5f2fe9d2e2c40aafdf",
-        "dest-filename": "@github-copilot-linux-arm64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-linux-x64/-/copilot-linux-x64-1.0.69.tgz#7c0943c4f86f94649bd6a77c2fbba81607caaa84",
-        "sha512": "5114fb51a47797554002d1296ca8f26eea76bf11d33127c34d596ed238a7bb53b69d6c4539e43d37805081175c081ef00eedcdf18cf8ee8ddf5751a86fa67563",
-        "dest-filename": "@github-copilot-linux-x64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-linuxmusl-arm64/-/copilot-linuxmusl-arm64-1.0.69.tgz#eb595c86548764a8a2d7f8341f4aa7793b7d1424",
-        "sha512": "63a0d8f51932595ea5f92d1c373e1df809146b7f20a0d5794ad407de3f0ea15ae774adfe46041e5231b55e927ffcfcd71178b8bd0d1c66e73d5f3163fd363bb7",
-        "dest-filename": "@github-copilot-linuxmusl-arm64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-linuxmusl-x64/-/copilot-linuxmusl-x64-1.0.69.tgz#f7f948315069d97c6d31eb6c8b3305950b0ffd6b",
-        "sha512": "87468d814591bbbd13829e3fed576a6bfe172898bdeb03f7d91d4fa0a797933d503716fa8bf210c61a028e34bec45a27f5eda479f29d17ca43ac3b54263b2205",
-        "dest-filename": "@github-copilot-linuxmusl-x64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-sdk/-/copilot-sdk-1.0.5.tgz#a2fd3174511e9053aa3dd54f8450e059d6742ec1",
-        "sha512": "37a624d8372933da2b61758605c42ce51d05762558ac29fb507436d3a71491f25e9e02988e071dddfefc06f541e83a2dde3d13bced3816743ce4af7f91b4516a",
-        "dest-filename": "@github-copilot-sdk-1.0.5.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-win32-arm64/-/copilot-win32-arm64-1.0.69.tgz#c4efe123dd51bf25bc81730b74449953155a12dc",
-        "sha512": "ec33280b5bb0b74d7265fe3cc6af0c80a7671da71769b7ec1ac3a2cdb826ae564c7ef410a1fac5e79c7511fbb704ab042851919787c22e32472580b3fe75ac1e",
-        "dest-filename": "@github-copilot-win32-arm64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot-win32-x64/-/copilot-win32-x64-1.0.69.tgz#1b913e418c90013d68ad070dae57c1f0da250eca",
-        "sha512": "e6e0f5fe4ea8573a918624bd8cbaf24866b6d078c8b6a509b1a31ef9b57a7984fbcd03c5ffbe318a1123c4c9b7fdb25c0135b649eb22610c723734dc2a6dea44",
-        "dest-filename": "@github-copilot-win32-x64-1.0.69.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/@github/copilot/-/copilot-1.0.69.tgz#ac82ee7826c83e7543ab3248e11843b6133f56ce",
-        "sha512": "b2b8ba3cab5142eee67e8937795e74e5f998a3a33a3c6669075bddf906cc126dab11968a136fb0246080b64a5034a7c0581befa16fc2f7821a785cb2ba552fa9",
-        "dest-filename": "@github-copilot-1.0.69.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -3511,13 +3637,6 @@
         "url": "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.4.tgz#f04715b8ba815e53b4d8109655b6508a6865a7e8",
         "sha512": "dd40eff86f42b0228ed5628c1b0f5fc2afd258961b23473963b2d4d405d8a0375b844d801d0e8de8d6f7e2c1bc163ed3e403f2f2a5c308abae207775051d2d54",
         "dest-filename": "detect-libc-2.0.4.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad",
-        "sha512": "06d8f604e38ef37a375b21f9f5ef0c817b3111055c6ab9143a9118aee6c1d2eaf09cdd74c90dfae2bb22072535d67665a966199b4e62fe87fb8a8e26ce2841b5",
-        "dest-filename": "detect-libc-2.1.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
