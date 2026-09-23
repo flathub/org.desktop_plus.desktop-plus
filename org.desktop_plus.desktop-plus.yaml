@@ -62,9 +62,7 @@ modules:
         $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - node ./vendor/yarn-1.21.1.js --offline
-      # Run electron-builder, passing the architecture arguments to it.
-      - . ./obfuscated-creds.sh && . flatpak-node/electron-builder-arch-args.sh && node ./vendor/yarn-1.21.1.js
-        run --offline build:prod $ELECTRON_BUILDER_ARCH_ARGS
+      - . ./obfuscated-creds.sh && node ./vendor/yarn-1.21.1.js run --offline build:prod
       # Copy the resulting, unpacked directory to /app.
       # (A glob is used because the directory name may contain the current arch.)
       - cp -r dist/desktop-plus-linux-* /app/desktop-plus
