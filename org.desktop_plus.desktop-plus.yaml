@@ -56,15 +56,13 @@ modules:
         # Use predownloaded dugite-native
         TMPDIR: /run/build/desktop-plus/flatpak-node/tmp
         XDG_CACHE_HOME: /run/build/desktop-plus/flatpak-node/cache
-        APP_VERSION: 3.6.6.0
+        APP_VERSION: 3.6.6.1
     build-commands:
       - HOME=$PWD node ./vendor/yarn-1.21.1.js config --offline set yarn-offline-mirror
         $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
       - node ./vendor/yarn-1.21.1.js --offline
-      # Run electron-builder, passing the architecture arguments to it.
-      - . ./obfuscated-creds.sh && . flatpak-node/electron-builder-arch-args.sh && node ./vendor/yarn-1.21.1.js
-        run --offline build:prod $ELECTRON_BUILDER_ARCH_ARGS
+      - . ./obfuscated-creds.sh && node ./vendor/yarn-1.21.1.js run --offline build:prod
       # Copy the resulting, unpacked directory to /app.
       # (A glob is used because the directory name may contain the current arch.)
       - cp -r dist/desktop-plus-linux-* /app/desktop-plus
@@ -83,8 +81,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-plus/desktop-plus.git
-        tag: v3.6.6.0
-        commit: 5ebc69fb11fddc9ede3880f627c246f81b676712
+        tag: v3.6.6.1
+        commit: 81db160c636f0a63eb4e6596afeca4342b3d1938
       - type: patch
         path: node_options.patch
       - type: file
