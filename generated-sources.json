@@ -36,10 +36,10 @@
     },
     {
         "type": "archive",
-        "url": "https://electronjs.org/headers/v44.1.1/node-v44.1.1-headers.tar.gz",
+        "url": "https://electronjs.org/headers/v44.9.1/node-v44.9.1-headers.tar.gz",
         "strip-components": 1,
-        "sha256": "63b814ca1b20d57eec7ab065ecc79eec6c95550345b7c44b29d21cd95ca84fbe",
-        "dest": "flatpak-node/cache/node-gyp/44.1.1"
+        "sha256": "761d2595a05d3d41b129d8fd9b7ad45a6175a0ccce311fe20341d21f8275007a",
+        "dest": "flatpak-node/cache/node-gyp/44.9.1"
     },
     {
         "type": "archive",
@@ -83,16 +83,16 @@
     },
     {
         "type": "archive",
-        "url": "https://www.electronjs.org/headers/v44.4.2/node-v44.4.2-headers.tar.gz",
+        "url": "https://www.electronjs.org/headers/v44.9.1/node-v44.9.1-headers.tar.gz",
         "strip-components": 1,
-        "sha256": "90a39e5649bee14dfb5b4ca588b58756e129bc7e24b7e1844da30fc2a45d0a0b",
-        "dest": "flatpak-node/cache/node-gyp/44.4.2"
+        "sha256": "761d2595a05d3d41b129d8fd9b7ad45a6175a0ccce311fe20341d21f8275007a",
+        "dest": "flatpak-node/cache/node-gyp/44.9.1"
     },
     {
         "type": "file",
-        "url": "https://github.com/desktop/dugite-native/releases/download/v2.53.0-4/dugite-native-v2.53.0-4098283-ubuntu-x64.tar.gz",
-        "sha256": "cca76aa31ad9e835e771ee7f55b73934777fbd8d16757a10d307ba06de860901",
-        "dest-filename": "dugite-native-v2.53.0-4098283-ubuntu-x64.tar.gz",
+        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-1/dugite-native-v2.56.0-7ce66f8-ubuntu-x64.tar.gz",
+        "sha256": "8d2d7a4449229f97344da4615b22119352f02801c317bed540df5255b335487f",
+        "dest-filename": "dugite-native-v2.56.0-7ce66f8-ubuntu-x64.tar.gz",
         "dest": "flatpak-node/tmp",
         "only-arches": [
             "x86_64"
@@ -100,16 +100,16 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v44.4.2/SHASUMS256.txt",
-        "sha256": "80d1268e3afcaa09b5dfa7b966801f9cd346bf0a6ab8302fd2bbf51d33e23623",
-        "dest-filename": "SHASUMS256.txt-44.4.2",
+        "url": "https://github.com/electron/electron/releases/download/v44.9.1/SHASUMS256.txt",
+        "sha256": "3abbb83b04f0765942d9a512b652fda89505087c60f38cf4d4b5ee2e6ec69b31",
+        "dest-filename": "SHASUMS256.txt-44.9.1",
         "dest": "flatpak-node/cache/electron"
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v44.4.2/electron-v44.4.2-linux-arm64.zip",
-        "sha256": "8e4db729303660d018ed7fc004b289362da83ff2ff8880bdccd3deb78a9ea1a8",
-        "dest-filename": "electron-v44.4.2-linux-arm64.zip",
+        "url": "https://github.com/electron/electron/releases/download/v44.9.1/electron-v44.9.1-linux-arm64.zip",
+        "sha256": "16e1f8f7993ca45bc3c2594d75da9d0f3bbd66d691f8cc408747e135c49cb1ad",
+        "dest-filename": "electron-v44.9.1-linux-arm64.zip",
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
             "aarch64"
@@ -117,9 +117,9 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v44.4.2/electron-v44.4.2-linux-x64.zip",
-        "sha256": "ad71063e77da29a647f872b090478f9fa9ccffd67de7b2ae6315409cf1f13436",
-        "dest-filename": "electron-v44.4.2-linux-x64.zip",
+        "url": "https://github.com/electron/electron/releases/download/v44.9.1/electron-v44.9.1-linux-x64.zip",
+        "sha256": "994bc3664cc3ac55b50c21a58d345cf8322003d37f5439a81801e3267e6145e2",
+        "dest-filename": "electron-v44.9.1-linux-x64.zip",
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
             "x86_64"
@@ -256,69 +256,6 @@
         "url": "https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz#de633db3ec2ef6a3c89e2f19038063e8a122e2c2",
         "sha512": "77dcda31149320a0cb85cb731f5d8cb57bc929249485a1dc8d5fb667e18af84118ed72a93f9c91e31f8ddd301c1d372ef7ade722bf9331c09be03042617d73e9",
         "dest-filename": "@eslint-js-8.57.1.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-darwin-arm64/-/copilot-sdk-darwin-arm64-1.0.18.tgz#c23fca9c6bec185932136b940d8805447ba6b991",
-        "sha512": "ca743e939c061b6b32e7e90b5cf04c87b6c6c2b63399e8fbb435c2a85fbb9ddddc22be65e0379fd64a511c74c4e15c6e5a13f36d8d540802194e106b793b9a5b",
-        "dest-filename": "@github-copilot-sdk-darwin-arm64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-darwin-x64/-/copilot-sdk-darwin-x64-1.0.18.tgz#300bd0e0e37f2836ec29fe546c42d766c9a046c4",
-        "sha512": "c2284c8cd426c8bee84d938f3580b5ccc6e48267d3ff1deb711f79ef94e7009bde1e313d625b09c1df325707d10295aa28463f56a70c310553d3cd192649834a",
-        "dest-filename": "@github-copilot-sdk-darwin-x64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-linux-arm64/-/copilot-sdk-linux-arm64-1.0.18.tgz#e6342e1f5ad71c7cd11511417f732f199c2bc5a5",
-        "sha512": "1a8e74f5aa0c2a147af730524904ae558f088505c8df99fdac9104c5574891a5b115d910fabe5777f334eed47fed101eab6c27e79d052e810d6ed86b0f7e336b",
-        "dest-filename": "@github-copilot-sdk-linux-arm64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-linux-x64/-/copilot-sdk-linux-x64-1.0.18.tgz#3f5ddfee9520856d04bda714ea3db539df390e90",
-        "sha512": "006917b162286be307689009c037d3071cc44e1d389cecc1b1ed7d7015ef0432c1fb230671085abd6e170135b920c8ed988892ca96e5aaf4c3653ecc2d0aa4bc",
-        "dest-filename": "@github-copilot-sdk-linux-x64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-linuxmusl-arm64/-/copilot-sdk-linuxmusl-arm64-1.0.18.tgz#afe62df91d9214aa34294f0f5ae9198762f45697",
-        "sha512": "c1ea72ec2917d57cb1beb6ddf5cece5140798f90010acbfe66c4ea2ea7a135199daeb6f3e00435c8d369a1ba537a9030a73fc5d0443c693e4adfd47baddf394a",
-        "dest-filename": "@github-copilot-sdk-linuxmusl-arm64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-linuxmusl-x64/-/copilot-sdk-linuxmusl-x64-1.0.18.tgz#6d05704382b95bb1b1088079ef32b1dc0053d0a4",
-        "sha512": "07b347fd4806663a8cd77d3bb072b8c48683cb039ffb352d604ff0fecf6d1d78f4a73f8971640d92a4bf687e840a2c2395fcfbc43f9af064b14a2aea262bca01",
-        "dest-filename": "@github-copilot-sdk-linuxmusl-x64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-win32-arm64/-/copilot-sdk-win32-arm64-1.0.18.tgz#7be763f634a1b2094f1d319bbf486e7ab1acbff0",
-        "sha512": "fb03b13ff3a44b10932d388df6987254b95e45f51479ec7feb85d9be18a19080fe59e4fe5f1d1e8f0c2b91c5948190e99eb3b7c5f465b5bdd29d5f45a41d9fc0",
-        "dest-filename": "@github-copilot-sdk-win32-arm64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk-win32-x64/-/copilot-sdk-win32-x64-1.0.18.tgz#7282209613f97242553b1c689174f4738e0d569e",
-        "sha512": "de5c88cf012b1211a53d4cfbc0a5b68302651213c3fb880ad2101237a572fab54322d8f342b7ed30587871269df8da81c5efcae8b13f8c65687b1f3a3b34e521",
-        "dest-filename": "@github-copilot-sdk-win32-x64-1.0.18.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.npmjs.org/@github/copilot-sdk/-/copilot-sdk-1.0.18.tgz#8f1549de3ea5498d46fe626a9b60e32283b5e688",
-        "sha512": "fdebed0400405719431dada2dd77e91cf6f8dce2db2eef06e2b1d5b3bc047f07fd6328909dcf2d0812be37d453bba9777413d89df5f3ebfaea63017a89dbb975",
-        "dest-filename": "@github-copilot-sdk-1.0.18.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -2167,6 +2104,69 @@
         "url": "https://registry.yarnpkg.com/@github/browserslist-config/-/browserslist-config-1.0.0.tgz#952fe6da3e6b8ed6a368f3a1a08a9d2ef84e8d04",
         "sha512": "808863749a7f7366de688596225b1776a5d5454cf7af6071042a5fcff1772571ef480435a5a3188cb1fe99a1004ed10d83e93978b57b800fbdc8fa7beb689ebb",
         "dest-filename": "@github-browserslist-config-1.0.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-darwin-arm64/-/copilot-sdk-darwin-arm64-1.0.27-preview.1.tgz#d94ebb919ca13eb0cc2ba162ae33f32907e889bb",
+        "sha512": "b0c03f5d1faf31490bbbffe842be758e328f21430b29ff13063f68c6d7885281d795cb247f50076021085dfe4c82f1fe862434e936ba8bbc5ebf80030fb2dba0",
+        "dest-filename": "@github-copilot-sdk-darwin-arm64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-darwin-x64/-/copilot-sdk-darwin-x64-1.0.27-preview.1.tgz#e0344dc34425968658d2aadce1e6b95490a63007",
+        "sha512": "c67afc2ee46962a2dbff4967ab5a58b3368de0b3a7a75e4312d54d01abdaa367c8b72f62750ca56d5575c633f615cc8e678a3d0f8ea8a5ac7a79aeff7c5b7da3",
+        "dest-filename": "@github-copilot-sdk-darwin-x64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-linux-arm64/-/copilot-sdk-linux-arm64-1.0.27-preview.1.tgz#47ab8e35480566385f52c98a3c75359f05e20c7b",
+        "sha512": "d7a369057db241edfed114fe4eadbea2b74d9c3fe9a295c9a8f162668558be7cfdebb0cc27e1605d6975da90c435db673db9ddb99655ecba9866ae0edf515d37",
+        "dest-filename": "@github-copilot-sdk-linux-arm64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-linux-x64/-/copilot-sdk-linux-x64-1.0.27-preview.1.tgz#3e02b53dbb2bcfc11f06cc9205ae15abc95a91e0",
+        "sha512": "45d1c4f384a87fa04879b1c879a2cc560cf39b32a5c7cd598e129c253f01a748ca9087f5dbaa9bbc4c704b65d52216309265fdd36e53ae4d452cc9a456918b28",
+        "dest-filename": "@github-copilot-sdk-linux-x64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-linuxmusl-arm64/-/copilot-sdk-linuxmusl-arm64-1.0.27-preview.1.tgz#ddb6274726375afd974c2b795bdc055cdf4b8b37",
+        "sha512": "a0ed46f04fb69b9cb79d48c045baaf0d92fac49e3e59b3cd74b807199b68c075c5a0b5b364de12868c39c7f7db86ab5fa851a534c4d9db40e7e19e4b9dfdb28e",
+        "dest-filename": "@github-copilot-sdk-linuxmusl-arm64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-linuxmusl-x64/-/copilot-sdk-linuxmusl-x64-1.0.27-preview.1.tgz#8aa1a84f9e0042d883ac88db98872df7005b4824",
+        "sha512": "67a91845ce4c2e89a2d24a9e5749249b0e5d8b391403bb4caa36ae8a569d9645fd616aa5f81fe5b5385dafd9ee0d5e6179d72b717afc7d31958762e165fd96bb",
+        "dest-filename": "@github-copilot-sdk-linuxmusl-x64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-win32-arm64/-/copilot-sdk-win32-arm64-1.0.27-preview.1.tgz#8edbd06d0863f7cb2b2cea510f2ba6f245c02771",
+        "sha512": "c3dd619cb9f6a99c3df228d384c2821c7b158eba9ca165968488a12f8494a34d30743ed431caa3c64433fb7877b2d68927c6b08b31927699e39e120ecde35e75",
+        "dest-filename": "@github-copilot-sdk-win32-arm64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk-win32-x64/-/copilot-sdk-win32-x64-1.0.27-preview.1.tgz#ede3f5694ec5a40651180a5985937a8c53ac7d4f",
+        "sha512": "61a22da6e999c069aad64815b1c54d98ed16e34d6d489ec9442e615bc408ca70f0810cc00ee73d1a7ace9fc90d41dbcf54cf2339f77e1f7d14510f5913cffbc5",
+        "dest-filename": "@github-copilot-sdk-win32-x64-1.0.27-preview.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@github/copilot-sdk/-/copilot-sdk-1.0.27-preview.1.tgz#f92bc463aeb4eb984fb3db058d044ac6bd51a007",
+        "sha512": "ce758975205e249bc4472ef868c24385647e10b055f3493045f6a19bf5da544d0e6eb2a300984fe198617405b701b47ee08ea7102300a774114b52f488200f73",
+        "dest-filename": "@github-copilot-sdk-1.0.27-preview.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -4334,9 +4334,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/dompurify/-/dompurify-3.4.16.tgz#c51b3709ea15ee9abb07e804f2ef30ea9b953128",
-        "sha512": "b2aa3ea4da77a918422296e0462d72f13824dbb068d91cbbc34742d4d05e3537590a15a3cfd5dbfca3a865b44ffd1ea9419f34430f18857c35de159605b3119d",
-        "dest-filename": "dompurify-3.4.16.tgz",
+        "url": "https://registry.yarnpkg.com/dompurify/-/dompurify-3.4.17.tgz#074bbb24eaa419535ac19ffe7f663104b0e1543d",
+        "sha512": "07fa52958547439f24a88483ff20e3b89d727f3237e26d60178940a1dd9bc1246188de0ae429771fc01fee1a81d8f9932fdd75b5d12e7679d79f9167851a33d3",
+        "dest-filename": "dompurify-3.4.17.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -4355,9 +4355,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/dugite/-/dugite-3.2.3.tgz#139c4f15d519b0752619414abf084632fe4bbc30",
-        "sha512": "90f049d2e7af08f638a5c1a5d11d3e7600bfa6b3c1be71cdf75d3d6545160edb64587cf81ea146c3216b8bd06d99dd98b9c0172094d830610287f4395407e97c",
-        "dest-filename": "dugite-3.2.3.tgz",
+        "url": "https://registry.yarnpkg.com/dugite/-/dugite-3.3.1.tgz#0b8e4b9133485e610630b8fb444d8825a565fdfa",
+        "sha512": "a3b578f2c39919fc65cc796eb6073694a0815dfbb951320e89ea7f35254e89655d17ed36502f50580427438575f81f419b0f48880e22e1a6107fc8b389cd04f3",
+        "dest-filename": "dugite-3.3.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -4432,9 +4432,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/electron/-/electron-44.4.2.tgz#361e881b228664d084975060dca35f51f00c7981",
-        "sha512": "f3bdadffef0cf13cab89b5a6d9c6294701d8d9a0e5c831ce9fe0879e137d907412b555bca408a322116895803fa90c8376b8b6f17a7c322dc7123e6416f6a30b",
-        "dest-filename": "electron-44.4.2.tgz",
+        "url": "https://registry.yarnpkg.com/electron/-/electron-44.9.1.tgz#fcc94888711c895fef93fa18474c0074df627976",
+        "sha512": "c7fb440851436b638536330e6c51f4106296ac29c564f391d703f688c215b7449379c1a5f059835dd6a26abc98d247fc9adc3d9122cfdb22bc75f75a5a47c39b",
+        "dest-filename": "electron-44.9.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -10090,13 +10090,7 @@
         "type": "inline",
         "contents": "11",
         "dest-filename": "installVersion",
-        "dest": "flatpak-node/cache/node-gyp/44.1.1"
-    },
-    {
-        "type": "inline",
-        "contents": "11",
-        "dest-filename": "installVersion",
-        "dest": "flatpak-node/cache/node-gyp/44.4.2"
+        "dest": "flatpak-node/cache/node-gyp/44.9.1"
     },
     {
         "type": "inline",
@@ -10149,16 +10143,16 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980\"",
-            "ln -s \"../SHASUMS256.txt-44.4.2\" \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980/SHASUMS256.txt\""
+            "mkdir -p \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8\"",
+            "ln -s \"../SHASUMS256.txt-44.9.1\" \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8/SHASUMS256.txt\""
         ],
         "dest": "flatpak-node/cache/electron"
     },
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980\"",
-            "ln -s \"../electron-v44.4.2-linux-arm64.zip\" \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980/electron-v44.4.2-linux-arm64.zip\""
+            "mkdir -p \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8\"",
+            "ln -s \"../electron-v44.9.1-linux-arm64.zip\" \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8/electron-v44.9.1-linux-arm64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -10168,8 +10162,8 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980\"",
-            "ln -s \"../electron-v44.4.2-linux-x64.zip\" \"b9fb81ce8fb19ad53d03df0dd3b870058439536dad2fe25a98f61d7797473980/electron-v44.4.2-linux-x64.zip\""
+            "mkdir -p \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8\"",
+            "ln -s \"../electron-v44.9.1-linux-x64.zip\" \"7026fc0e9c42525aa693058e1c6bd07f20c05b97c0aa09df8baabeb3fdd1f7c8/electron-v44.9.1-linux-x64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -10227,8 +10221,8 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv44.4.2electron-v44.4.2-linux-arm64.zip\"",
-            "ln -s \"../electron-v44.4.2-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv44.4.2electron-v44.4.2-linux-arm64.zip/electron-v44.4.2-linux-arm64.zip\""
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv44.9.1electron-v44.9.1-linux-arm64.zip\"",
+            "ln -s \"../electron-v44.9.1-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv44.9.1electron-v44.9.1-linux-arm64.zip/electron-v44.9.1-linux-arm64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -10238,8 +10232,8 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv44.4.2electron-v44.4.2-linux-x64.zip\"",
-            "ln -s \"../electron-v44.4.2-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv44.4.2electron-v44.4.2-linux-x64.zip/electron-v44.4.2-linux-x64.zip\""
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv44.9.1electron-v44.9.1-linux-x64.zip\"",
+            "ln -s \"../electron-v44.9.1-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv44.9.1electron-v44.9.1-linux-x64.zip/electron-v44.9.1-linux-x64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
@@ -10248,9 +10242,9 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/desktop/dugite-native/releases/download/v2.53.0-4/dugite-native-v2.53.0-4098283-ubuntu-arm64.tar.gz",
-        "sha256": "a161f45af4626bb7e0c688854bd4a9aee47cc514bca404cff0a5e3536ef1c0af",
-        "dest-filename": "dugite-native-v2.53.0-4098283-ubuntu-arm64.tar.gz",
+        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-1/dugite-native-v2.56.0-7ce66f8-ubuntu-arm64.tar.gz",
+        "sha256": "3f6effa04c5fe68bcd3c6fcefc4ac7f9d608736c49c748e07fa0e7ba84e2d099",
+        "dest-filename": "dugite-native-v2.56.0-7ce66f8-ubuntu-arm64.tar.gz",
         "dest": "flatpak-node/tmp",
         "only-arches": [
             "aarch64"
