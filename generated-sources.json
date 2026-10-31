@@ -90,9 +90,9 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-1/dugite-native-v2.56.0-7ce66f8-ubuntu-x64.tar.gz",
-        "sha256": "8d2d7a4449229f97344da4615b22119352f02801c317bed540df5255b335487f",
-        "dest-filename": "dugite-native-v2.56.0-7ce66f8-ubuntu-x64.tar.gz",
+        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-2/dugite-native-v2.56.0-a44aeca-ubuntu-x64.tar.gz",
+        "sha256": "1efd8ce0516b670b6b6d0f49ecaf395ceb8cf7fff3f5857259763d97a1238df9",
+        "dest-filename": "dugite-native-v2.56.0-a44aeca-ubuntu-x64.tar.gz",
         "dest": "flatpak-node/tmp",
         "only-arches": [
             "x86_64"
@@ -4355,9 +4355,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/dugite/-/dugite-3.3.1.tgz#0b8e4b9133485e610630b8fb444d8825a565fdfa",
-        "sha512": "a3b578f2c39919fc65cc796eb6073694a0815dfbb951320e89ea7f35254e89655d17ed36502f50580427438575f81f419b0f48880e22e1a6107fc8b389cd04f3",
-        "dest-filename": "dugite-3.3.1.tgz",
+        "url": "https://registry.yarnpkg.com/dugite/-/dugite-3.3.2.tgz#11ef5893b77ce57a3cc87eab585694bffe67234b",
+        "sha512": "75e3b7d7bf18f2e434cb812ce5e0f7d4f493efc9f25ac91fa8b0e2f996b95011d8bdd94c330b858abc128600ae5fef1a4f7075059eb196be016fc8f47aae016a",
+        "dest-filename": "dugite-3.3.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -10242,9 +10242,9 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-1/dugite-native-v2.56.0-7ce66f8-ubuntu-arm64.tar.gz",
-        "sha256": "3f6effa04c5fe68bcd3c6fcefc4ac7f9d608736c49c748e07fa0e7ba84e2d099",
-        "dest-filename": "dugite-native-v2.56.0-7ce66f8-ubuntu-arm64.tar.gz",
+        "url": "https://github.com/desktop/dugite-native/releases/download/v2.56.0-2/dugite-native-v2.56.0-a44aeca-ubuntu-arm64.tar.gz",
+        "sha256": "d5ce120515bf3013a014e6a918aa87ec0f7a6f5f9687c48d50127e637cb9b6c2",
+        "dest-filename": "dugite-native-v2.56.0-a44aeca-ubuntu-arm64.tar.gz",
         "dest": "flatpak-node/tmp",
         "only-arches": [
             "aarch64"
