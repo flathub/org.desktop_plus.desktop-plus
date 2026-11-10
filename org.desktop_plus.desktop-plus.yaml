@@ -42,27 +42,22 @@ modules:
   - name: desktop-plus
     buildsystem: simple
     build-options:
-      # Add the node bin directory & yarn directory.
-      append-path: /app/bin:/usr/lib/sdk/node24/bin:/run/build/desktop-plus/flatpak-node/chromedriver:/usr/lib/sdk/node24/lib/node_modules/npm/node_modules/node-gyp/bin
+      # Add the node bin directory.
+      append-path: /app/bin:/usr/lib/sdk/node24/bin:/usr/lib/sdk/node24/lib/node_modules/npm/node_modules/node-gyp/bin
       env:
-        # Sets the directory where Node is located so way npm won't download the headers.
-        npm_config_nodedir: /usr/lib/sdk/node24
-        # Set the Electron cache directory.
-        ELECTRON_CACHE: /run/build/desktop-plus/flatpak-node/electron-cache
+        npm_config_cache: /run/build/desktop-plus/flatpak-node/npm-cache
+        npm_config_offline: "true"
         # Skip Electron related downloads
         ELECTRON_SKIP_BINARY_DOWNLOAD: "1"
         OFFLINE: "1"
-        CHROMEDRIVER_SKIP_DOWNLOAD: "true"
         # Use predownloaded dugite-native
         TMPDIR: /run/build/desktop-plus/flatpak-node/tmp
         XDG_CACHE_HOME: /run/build/desktop-plus/flatpak-node/cache
         APP_VERSION: 3.6.11.0
     build-commands:
-      - HOME=$PWD node ./vendor/yarn-1.21.1.js config --offline set yarn-offline-mirror
-        $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - ln -s $XDG_CACHE_HOME/node-gyp $HOME/.electron-gyp
-      - node ./vendor/yarn-1.21.1.js --offline
-      - . ./obfuscated-creds.sh && node ./vendor/yarn-1.21.1.js run --offline build:prod
+      - npm ci
+      - . ./obfuscated-creds.sh && npm run build:prod
       # Copy the resulting, unpacked directory to /app.
       # (A glob is used because the directory name may contain the current arch.)
       - cp -r dist/desktop-plus-linux-* /app/desktop-plus
@@ -83,8 +78,6 @@ modules:
         url: https://github.com/desktop-plus/desktop-plus.git
         tag: v3.6.11.0
         commit: e86afd65a1a3127e43d2813206059b06df5142f1
-      - type: patch
-        path: node_options.patch
       - type: file
         path: obfuscated-creds.sh
       - generated-sources.json
