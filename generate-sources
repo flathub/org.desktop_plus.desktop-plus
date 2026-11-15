@@ -61,16 +61,14 @@ if __name__ == "__main__":
     result = subprocess.call(
         [
             ".venv/bin/flatpak-node-generator",
-            "yarn",
+            "npm",
             "--electron-node-headers",
-            "--node-chromedriver-from-electron",
-            "9.3.1",
             "-r",
-            f"{root}/desktop-plus/yarn.lock",
+            f"{root}/desktop-plus/package-lock.json",
             "-R",
-            "yarn.lock",
+            "package-lock.json",
             "-R",
-            "app/yarn.lock",
+            "app/package-lock.json",
         ],
         cwd=root,
     )
@@ -83,27 +81,9 @@ if __name__ == "__main__":
     append_sources = []
 
     for source in generated_sources:
-    
-        # Move electron-cache files to match what @electron/get expects
-        # https://github.com/electron/get/blob/master/src/Cache.ts
-        if source.get("dest") == "flatpak-node/electron-cache":
-            cache_dir = (
-                source["url"]
-                .split("?")[0]
-                .split("#")[0]
-                .translate(str.maketrans("", "", '<>:"/\\|?*'))[:255]
-            )
-            source["dest"] = f"flatpak-node/electron-cache/{cache_dir}"
-            del source["dest-filename"]
-
         if source.get("dest") == "flatpak-node/tmp" and source["dest-filename"].startswith("dugite-native"):
             other = create_complementary_dugite_architecture(source["url"])
             append_sources.append(other)
-
-        if source.get("type") == "git" and source.get("url") == "https://github.com/sergiou87/prebuild":
-            req = requests.get("https://api.github.com/repos/sergiou87/prebuild/commits/master")
-            jsn = req.json()
-            source["commit"] = jsn["sha"]
 
     generated_sources.extend(append_sources)
 
